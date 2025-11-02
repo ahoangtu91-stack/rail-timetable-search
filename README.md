@@ -40,16 +40,3 @@ Run the CLI directly:
 
 python -m src.rail_nextday.cli --station "Berlin Hbf" --from 08:00 --to 12:00
 
-
-🧩 Project Structure
-rail-timetable-search/
-├── src/
-│   └── rail_nextday/
-│       ├── cli.py
-│       ├── gtfs_loader.py
-│       ├── timetable.py
-│       └── __init__.py
-├── tests/
-├── requirements.txt
-├── README.md
-└── pyproject.toml
