@@ -6,16 +6,15 @@ A command-line Python tool to search and display rail timetables using GTFS (Gen
 
 Rail Timetable Search lets you query train schedules for a given station and time range.
 It loads GTFS feed data (static or from a remote URL) and outputs timetable results in text or JSON format.
+Example of where to find GTFS feed 
+SNCF - https://transport.data.gouv.fr/resources/67595?locale=en
+SBB - https://opentransportdata.swiss/en/cookbook/timetable-cookbook/gtfs/
 
 🧰 Features
 
 Search for departures and arrivals by station name
 
 Filter by date, time range, or route
-
-Supports local or remote GTFS data
-
-Optional JSON output for automation or API use
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
