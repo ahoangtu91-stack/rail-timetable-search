@@ -17,41 +17,29 @@ Search for departures and arrivals by station name
 Filter by date, time range, or route
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the repository
+
 git clone https://github.com/ahoangtu91-stack/rail-timetable-search.git
+
 cd rail-timetable-search
 
 2️⃣ Create and activate a virtual environment
-python -m venv venv
-.\venv\Scripts\activate     # on Windows
-# source venv/bin/activate  # on macOS/Linux
 
-3️⃣ Install dependencies
+python -m venv venv
+
+.\venv\Scripts\activate     # on Windows
+
+3️⃣ Install dependencies 
+
 pip install -r requirements.txt
 
 🚀 Usage
 
 Run the CLI directly:
 
-python -m src.rail_nextday.cli --station "Berlin"
-
-Optional arguments
-Argument	Description	Example
---station	(Required) Station name to search for	--station "Berlin"
---date	Date of travel (YYYY-MM-DD)	--date 2025-11-02
---from	Start time (HH:MM)	--from 08:00
---to	End time (HH:MM)	--to 10:00
---route	Filter by route name or ID	--route RE1
---json	Output results in JSON format	--json
---gtfs-url	Load GTFS data from a remote URL	--gtfs-url "https://example.com/gtfs.zip"
-Example
 python -m src.rail_nextday.cli --station "Berlin Hbf" --from 08:00 --to 12:00
 
-🧪 Running Tests
-
-If you have test files under tests/:
-
-pytest
 
 🧩 Project Structure
 rail-timetable-search/
